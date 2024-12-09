@@ -1,0 +1,16 @@
+html, body{
+    /* background-color: black; */
+    color:rgb(193, 0, 71);
+    font-family: courier;
+    font-size: 6pt;
+    line-height: 3pt;
+    /* font-size: 1pt;
+    line-height: 0.5pt; */
+    
+    
+}
+
+div{
+    
+    background-image:url("/img/2.png")
+}
