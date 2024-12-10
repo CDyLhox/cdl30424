@@ -2,13 +2,13 @@ let density = ' CDLcdl0_. ';
 let video, asciidiv, mode = 1, counter, amount = 110, avg, cdl;
 
 function preload() {
-  cdl = loadImage('scripts/ascii23apr/img/2,5.png');
+  cdl = loadImage('../img/basicimg/2,5.png');
 }
 
 function setup() {
   noCanvas();
 
-  video = createVideo('scripts/ascii23apr/img/aprdr.mp4');
+  video = createVideo('../img/basicimg/aprdr.mp4');
   video.size(250, 200);
   asciidiv = createDiv();
 
