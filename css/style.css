@@ -720,6 +720,22 @@ div#mainWindow1.window {
   /* Retain overflow as needed */
 }
 
+div#mainWindow2.window {
+  position: absolute;
+  /* Keep absolute positioning for drag functionality */
+  right: 0%;
+
+  /* Remove float: right */
+  padding: 0%;
+  top: 25%;
+  width: 300px;
+  /* Set a fixed width instead of a percentage */
+
+  margin: 1%;
+  overflow: hidden;
+  /* Retain overflow as needed */
+}
+
 @media only screen and (max-width: 800px) {
   div#mainWindow.window {
     position: absolute;
