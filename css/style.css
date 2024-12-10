@@ -240,17 +240,7 @@ body.main.hover-active {
   padding-left: 3%;
 }
 
-@media only screen and (max-width: 800px) {
-  #musicheader {
-    background-color: rgb(62, 1, 1);
-    background-image: url('../img/basicimg/bg8.jpeg');
-    background-blend-mode: multiply;
-
-    mix-blend-mode: hard-light;
-    position: relative;
-    padding-left: 3%;
-  }
-}
+@media only screen and (max-width: 800px) {}
 
 .header {
   background-blend-mode: color-burn;
@@ -278,43 +268,13 @@ body.main.hover-active {
 }
 
 
-@media only screen and (max-width: 800px) {
-  .header {
-    background-blend-mode: color-burn;
-    background-color: rgb(203, 0, 81);
-    mix-blend-mode: difference;
-    background-image: url('../img/basicimg/bg7.jpeg');
-    /* background-color: #717171; */
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 0px 600px;
-    background-size: 127% 200%;
-
-
-  }
-
-}
+@media only screen and (max-width: 800px) {}
 
 .footer {
   margin-bottom: 12%;
 }
 
-@media only screen and(max-width:800px) {
-  .tracklisting {
-
-    font-size: large;
-    width: fit-content;
-    padding: 1%;
-    display: block;
-    background-color: rgb(84, 84, 70);
-    mix-blend-mode: exclusion;
-    color: rgb(247, 227, 3);
-    margin-right: 34%;
-    float: right;
-
-  }
-
-}
+@media only screen and(max-width:800px) {}
 
 .header h1 {
   width: fit-content;
@@ -341,6 +301,7 @@ body.main.hover-active {
 .links {
   font-size: medium;
 }
+
 .link {
   position: absolute;
   width: 100%;
@@ -424,7 +385,8 @@ p {
   text-overflow: clip;
   /* transition: color 2 ms; */
 }
-.p1{
+
+.p1 {
   margin-left: 2%;
   text-align: justify;
   width: 90vw;
@@ -552,7 +514,7 @@ a:hover {
   overflow: hidden;
 }
 
-#mlem{
+#mlem {
 
   border: 0px;
   border-top: 7px solid black;
@@ -562,25 +524,26 @@ a:hover {
   z-index: -1;
   /* width: 110%; */
   width: 100%;
-  
+
   background-color: white;
   display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
+  font-size: 2em;
+  margin-block-start: 0.67em;
 
-    padding-left: 2%;
-    font-weight: bold;
-    unicode-bidi: isolate;
+  padding-left: 2%;
+  font-weight: bold;
+  unicode-bidi: isolate;
 
-    --itchio_font_family: Inter;
-    --itchio_link_color: #D1D1D6;
-    --itchio_gray_back: #f2f2f2;
-    --itchio_border_radius: 10px;
-    color: var(--textColor);
-    font-size: 150%;
+  --itchio_font_family: Inter;
+  --itchio_link_color: #D1D1D6;
+  --itchio_gray_back: #f2f2f2;
+  --itchio_border_radius: 10px;
+  color: var(--textColor);
+  font-size: 150%;
 
 }
-h6{
+
+h6 {
   font-size: 2em;
 }
 
@@ -590,7 +553,7 @@ div#LoveUnder.window {
   bottom: 3%;
   right: 3%;
   padding: 0;
-  background-color:#000000;
+  background-color: #000000;
 
 
   overflow: hidden;
@@ -605,22 +568,7 @@ div#LoveUnder.window {
 
 
 
-@media only screen and (max-width: 700px) {
-  div#LoveUnder.window {
-
-    position: relative;
-    overflow: hidden;
-    left: 0.5%;
-    /* margin: 2% 0 2% auto; */
-    width: 100%;
-    background-color:#000000;
-    border: 7px solid black;
-    padding: 0;
-    display: block;
-    float: right;
-    bottom: 1%;
-  }
-}
+@media only screen and (max-width: 700px) {}
 
 #wacko {
   color: rgb(255, 0, 102);
@@ -649,16 +597,16 @@ div#LoveUnder.window {
 
 
 #windowHeader {
-  display:block;
+  display: block;
   width: 100%;
-  color:rgb(203, 0, 81);
+  color: rgb(203, 0, 81);
   font-size: large;
-  font-weight: 600 ;
+  font-weight: 600;
   /* padding: 5%; */
   background-size: cover;
   background-color: gray;
   background-image: url("../img/basicimg/bg8.png");
-  background-blend-mode:color-burn
+  background-blend-mode: color-burn
 }
 
 div#youtube1.window {
@@ -737,9 +685,63 @@ div#mainWindow2.window {
 }
 
 @media only screen and (max-width: 800px) {
+  .header {
+    background-blend-mode: color-burn;
+    background-color: rgb(203, 0, 81);
+    mix-blend-mode: difference;
+    background-image: url('../img/basicimg/bg7.jpeg');
+    /* background-color: #717171; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px 600px;
+    background-size: 127% 200%;
+
+
+  }
+
+  .tracklisting {
+
+    font-size: large;
+    width: fit-content;
+    padding: 1%;
+    display: block;
+    background-color: rgb(84, 84, 70);
+    mix-blend-mode: exclusion;
+    color: rgb(247, 227, 3);
+    margin-right: 34%;
+    
+
+  }
+
+  #musicheader {
+    background-color: rgb(62, 1, 1);
+    background-image: url('../img/basicimg/bg8.jpeg');
+    background-blend-mode: multiply;
+
+    mix-blend-mode: hard-light;
+    position: relative;
+    padding-left: 3%;
+  }
+
+  div#LoveUnder.window {
+
+    position: relative;
+    overflow: hidden;
+    left: 0.5%;
+    /* margin: 2% 0 2% auto; */
+    width: 100%;
+    background-color: #000000;
+    border: 7px solid black;
+    padding: 0;
+    display: block;
+    float: right;
+    bottom: 1%;
+  }
+
   div#mainWindow.window {
     position: absolute;
     /* Keep absolute positioning for drag functionality */
+
     right: 0;
     /* Remove float: right */
     top: 50%;
@@ -749,6 +751,16 @@ div#mainWindow2.window {
     overflow: hidden;
     /* Retain overflow as needed */
   }
+
+  body {
+    touch-action: none;
+    /* Prevent default touch behaviors like scrolling */
+  }
+
+  p{
+    color: aliceblue;
+  }
+
 }
 
 .windowBG {

@@ -8,7 +8,7 @@ function preload() {
 function setup() {
   noCanvas();
 
-  video = createVideo('../img/basicimg/aprdr.mp4');
+  video = createVideo('../vid/aprdr.mp4');
   video.size(250, 200);
   asciidiv = createDiv();
 

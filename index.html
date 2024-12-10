@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <script src="scripts/p5/p5.js"></script>
+  <script src="scripts/p5/addons/p5.sound.min.js"></script>
 
 
   <!-- <script src="scripts/ascii23apr/sketch.js"></script> -->
@@ -158,9 +158,6 @@
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <script>
-      audioPlayer.src = "songs/Wacko()/01.mp3"
-    </script>
     <!-- make moveable -->
     <script src="scripts/moveDiv/moveDiv.js"></script>
 
@@ -173,7 +170,7 @@
   </div>
 
   <div class="window" id="wacko"
-    style="width: 30%; height: 500px; overflow:hidden; padding: 0; position:absolute;  top: 15%; right: 5%; ">
+    style="width: 300px; height: 500px; overflow:scroll; padding: 0; position:absolute;  top: 15%; right: 5%; ">
     <div id="windowHeader2"
       style="padding: 5%; background-color: gray; mix-blend-mode:multiply; position:relative; width: auto; ">
       Wacko_ IS OUT
