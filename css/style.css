@@ -142,7 +142,7 @@ table {
 /* Default body styling */
 body {
   margin: 0;
-  background-image: url('../IMG/bg3.1.jpeg');
+  background-image: url('../img/basicimg/bg3.1.jpeg');
   background-size: cover;
   background-position: top;
   min-height: 100vh;
@@ -152,13 +152,13 @@ body {
 
 /* A class to apply the hover effect */
 body.main.hover-active {
-  background-image: url('../IMG/bg7.1.jpeg');
+  background-image: url('../img/basicimg/bg7.1.jpeg');
 }
 
 
 /* Optionally, you can set a class to control hover effect without affecting the original image */
 .bg-active {
-  background-image: url('../IMG/bg7.1.jpeg');
+  background-image: url('../img/basicimg/bg7.1.jpeg');
   /* New background image */
   bottom: 10%;
   float: right;
@@ -243,7 +243,7 @@ body.main.hover-active {
 @media only screen and (max-width: 800px) {
   #musicheader {
     background-color: rgb(62, 1, 1);
-    background-image: url(../IMG/bg8.jpeg);
+    background-image: url('../img/basicimg/bg8.jpeg');
     background-blend-mode: multiply;
 
     mix-blend-mode: hard-light;
@@ -256,7 +256,7 @@ body.main.hover-active {
   background-blend-mode: color-burn;
   background-color: rgb(203, 0, 81);
   mix-blend-mode: difference;
-  background-image: url('../IMG/bg10.jpeg');
+  background-image: url('../img/basicimg/bg10.jpeg');
   /* background-color: #717171; */
   background-size: contain;
   background-attachment: scroll;
@@ -283,7 +283,7 @@ body.main.hover-active {
     background-blend-mode: color-burn;
     background-color: rgb(203, 0, 81);
     mix-blend-mode: difference;
-    background-image: url('../IMG/bg7.jpeg');
+    background-image: url('../img/basicimg/bg7.jpeg');
     /* background-color: #717171; */
     background-size: cover;
     background-attachment: fixed;
@@ -327,7 +327,7 @@ body.main.hover-active {
   padding: 0.2%;
   font-size: 200%;
   transition: 1s;
-  /* border-image: url('../IMG/bg1.png') 30 space; */
+  /* border-image: url('../img/basicimg/bg1.png') 30 space; */
   /* border-color: blue; */
   text-align: left;
   text-shadow: 2px 0 wheat, -2px 0 wheat, 0 2px wheat, 0 -2px wheat,
@@ -396,29 +396,29 @@ div#secondary.links a.mainlink:hover {
 }
 
 .CDLmusic {
-  background-image: url('../IMG/bg6.jpeg');
+  background-image: url('../img/basicimg/bg6.jpeg');
   background-size: contain;
 }
 
 /* img {
   border: 3px solid transparent;
   padding: 15px;
-  border-image: url('../IMG/bg1.png') 50 space;
+  border-image: url('../img/basicimg/bg1.png') 50 space;
   border-radius: 10px; 
 } */
 
 a:hover~body {
-  background-image: url(../IMG/bg8.jpeg);
+  background-image: url('../img/basicimg/bg8.jpeg');
 }
 
 p {
   /* color:blue; */
   /* border: 5px solid transpa; */
   /* padding: 15px;
-  border-image: url('../IMG/bg1.png') 30 space; */
+  border-image: url('../img/basicimg/bg1.png') 30 space; */
   border-radius: 10px;
   width: 80vw;
-  background-image: url('IMG/bg3.jpeg');
+  /* background-image: url('../img/basicimg/bg3.jpeg'); */
   text-align: justify;
   font-size: large;
   text-overflow: clip;
@@ -461,7 +461,7 @@ h1 {
   border: 3px solid transparent;
   padding: 15px;
 
-  border-image: url('../IMG/bg1.jpeg') 30 space;
+  border-image: url('../img/basicimg/bg1.jpeg') 30 space;
   text-align: left;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
@@ -487,8 +487,8 @@ a:hover {
   /* top:0; */
   margin: 100px;
   border-radius: 10px;
-  border-image: url('../IMG/bg1.jpeg') 50 space;
-  background-image: url('../IMG/bg4.jpeg');
+  border-image: url('../img/basicimg/bg1.jpeg') 50 space;
+  background-image: url('../img/basicimg/bg4.jpeg');
   background-repeat: round;
   background-size: 150vh
 }
@@ -505,7 +505,7 @@ a:hover {
   top: 1%;
   /* left: 10%; */
   padding: 5px 3px;
-  background-image: url('../IMG/dlan2\(blk\)\ copy.png');
+  background-image: url('../img/basicimg/dlan2\(blk\)\ copy.png');
   background-size: 100%;
   background-repeat: round;
 
@@ -520,7 +520,7 @@ a:hover {
   border: 1px solid black;
   border-radius: 10px;
   margin: 5%;
-  background-image: url('../IMG/dlan2\(blk\)\ copy.png');
+  background-image: url('../img/basicimg/dlan2\(blk\)\ copy.png');
 
 }
 
@@ -532,7 +532,7 @@ a:hover {
   border: 5px solid transparent;
   margin: 0px;
   border-radius: 0px;
-  border-image: url('../IMG/bg1.png') 50 space;
+  border-image: url('../img/basicimg/bg1.png') 50 space;
 
   overflow: hidden;
 }
@@ -628,7 +628,7 @@ div#LoveUnder.window {
   font-size: medium;
   position: relative;
   font-weight: 600;
-  background-image: url(../IMG/bg9.jpeg);
+  background-image: url('../img/basicimg/bg9.jpeg');
   background-color: rgb(224, 210, 206);
   background-blend-mode: exclusion;
   margin: 2%;
@@ -639,8 +639,8 @@ div#LoveUnder.window {
   color: rgb(203, 0, 81);
   font-size: medium;
   font-weight: 600;
-  /* background-image: url(../IMG/bg9.jpeg); */
-  background-image: url(../IMG/bg6blk.jpeg);
+  /* background-image: url(../img/basicimg/bg9.jpeg); */
+  background-image: url('../img/basicimg/bg6blk.jpeg');
   background-color: rgb(224, 210, 206);
   background-blend-mode: exclusion;
   margin: 2%;
@@ -657,7 +657,7 @@ div#LoveUnder.window {
   /* padding: 5%; */
   background-size: cover;
   background-color: gray;
-  background-image: url("..//IMG/bg8.png");
+  background-image: url("../img/basicimg/bg8.png");
   background-blend-mode:color-burn
 }
 
@@ -712,7 +712,7 @@ div#mainWindow1.window {
   padding: 0%;
   top: 25%;
   width: 300px;
-  background-image: url(IMG/Richart/buble.png);
+  background-image: url('../img/Richart/buble.png');
   /* Set a fixed width instead of a percentage */
 
   margin: 1%;
@@ -753,7 +753,7 @@ div#performance.window {
   float: right;
   background-blend-mode: normal;
   opacity: 90%;
-  background-image: url(../IMG/Richart/P52.png), url(../IMG/Richart/p.jpg);
+  background-image: url('../img/Richart/P52.png'), url('../img/Richart/p.jpg');
   background-size: contain;
   transition: 1.5s;
 }
@@ -931,7 +931,7 @@ div.desc {
   /* -webkit-transition: height 0.5s; */
   text-align: center;
   overflow: scroll;
-  background-image: url('../IMG/bg6blk.jpeg');
+  background-image: url('../img/basicimg/bg6blk.jpeg');
   background-size: contain;
 }
 
@@ -951,6 +951,6 @@ div.desc {
   text-align: center;
   word-spacing: 20px;
   /* text-align: justify; */
-  background-image: url("../IMG/Richart/buble.png");
+  background-image: url("../img/Richart/buble.png");
   word-wrap: normal;
 }
