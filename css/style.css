@@ -148,11 +148,13 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   transition: background-image 1s ease-in-out;
+
 }
 
 /* A class to apply the hover effect */
 body.main.hover-active {
   background-image: url('../img/basicimg/bg7.1.jpeg');
+
 }
 
 
@@ -411,6 +413,7 @@ p {
   text-align: justify;
   width: 90vw;
   text-overflow: clip;
+  color: white;
 }
 
 .p1:hover {
