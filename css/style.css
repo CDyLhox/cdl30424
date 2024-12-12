@@ -280,21 +280,14 @@ body.main.hover-active {
   width: 100vw;
   margin: 0%;
   padding: 1%;
-  position:fixed;
+  position: fixed;
   left: 0;
   bottom: 0;
   /* float: right; */
   /* margin-bottom: 12%; */
 }
 
-.eightyeight {
-  border: 3px solid black;
-  bottom: 0%;
-  right: 1%;
 
-  position: fixed;
-  border-style: outset;
-}
 
 .header h1 {
   width: fit-content;
@@ -416,16 +409,6 @@ p {
   color: white;
 }
 
-.p1:hover {
-  animation-name: white;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-  font-weight: bold;
-  /* color:white; */
-  /* text-shadow: 2px 0 #ffffff, -2px 0 #ffffff, 0 2px #ffffff, 0 -2px #ffffff,
-  1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff; */
-}
-
 .mainlink {
   font-size: xx-large;
   font-weight: 600;
@@ -459,7 +442,10 @@ h2 {
 }
 
 a {
-  color: rgb(204, 0, 91)
+  color: rgb(204, 0, 91);
+  font-weight: 900;
+
+  /* mix-blend-mode:difference; */
 }
 
 a:hover {
@@ -648,12 +634,6 @@ div#youtube2.window {
   height: 70vh;
 }
 
-iframe {
-  height: 400px;
-  width: 50%;
-  resize: both;
-  overflow: auto;
-}
 
 .maintext {
   width: 75%;
@@ -673,6 +653,7 @@ div#mainWindow.window {
   overflow: hidden;
   /* Retain overflow as needed */
 }
+
 
 div#mainWindow1.window {
   position: absolute;
@@ -704,7 +685,25 @@ div#mainWindow2.window {
 
   margin: 1%;
   overflow: hidden;
+
+
   /* Retain overflow as needed */
+}
+
+div#wackoWindow.window {
+  color: rgb(255, 0, 102);
+  text-shadow: 1px 1px #f2f2f2;
+  font-size: medium;
+  background-image: url('../img/basicimg/bg9.jpeg');
+  width: 300px;
+  height: 500px;
+  overflow: scroll;
+  background-color: rgb(224, 210, 206);
+  background-blend-mode: exclusion;
+  padding: 0;
+  position: absolute;
+  top: 15%;
+  right: 5%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -722,6 +721,16 @@ div#mainWindow2.window {
 
   }
 
+
+  .eightyeight {
+    border: 3px solid black;
+    bottom: 0%;
+    right: 1%;
+
+    position: fixed;
+    border-style: outset;
+  }
+
   .footer {
     border-radius: 6%;
     /* background-image: url('../img/basicimg/bg6blk 3.jpeg'); */
@@ -730,7 +739,7 @@ div#mainWindow2.window {
     width: 100vw;
     margin: 0%;
     padding: 0%;
-    position:fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     /* float: right; */
@@ -750,6 +759,8 @@ div#mainWindow2.window {
 
 
   }
+
+
 
   #musicheader {
     background-color: rgb(62, 1, 1);
@@ -779,15 +790,40 @@ div#mainWindow2.window {
   div#mainWindow.window {
     position: absolute;
     /* Keep absolute positioning for drag functionality */
-
-    right: 0;
+    right: 2%;
     /* Remove float: right */
-    top: 50%;
-    width: 40%;
+    padding: 0%;
+    top: 20%;
+    width: 100px;
+    height: 170px;
     /* Set a fixed width instead of a percentage */
     margin: 1%;
     overflow: hidden;
     /* Retain overflow as needed */
+  }
+
+  div#mainWindow1.window {
+    display: none;
+  }
+
+  div#mainWindow2.window {
+    position: absolute;
+    /* Keep absolute positioning for drag functionality */
+    right: 0%;
+
+    /* Remove float: right */
+    padding: 0%;
+    top: 25%;
+    width: 100px;
+    /* Set a fixed width instead of a percentage */
+
+    margin: 1%;
+    overflow: hidden;
+    /* Retain overflow as needed */
+  }
+
+  div#wackoWindow.window {
+    display: none;
   }
 
   body {
