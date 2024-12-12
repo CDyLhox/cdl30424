@@ -11,7 +11,7 @@ function randomizePosition(elmnt) {
 
 }
 
-const wacko = document.getElementById("wacko");
+const wacko = document.getElementById("wackoWindow");
 randomizePosition(wacko);
 dragElement(wacko);
 
