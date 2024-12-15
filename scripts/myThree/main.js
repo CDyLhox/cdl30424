@@ -17,7 +17,7 @@ document.body.appendChild(renderer.domElement);
 const textureLoader = new THREE.TextureLoader();
 let texture = null;
 textureLoader.load(
-  'textures/wackofeest.jpg',
+  '../textures/wackofeest.jpg',
   function (loadedTexture) {
     texture = loadedTexture;  // Store the loaded texture
   },
@@ -32,7 +32,7 @@ const loader = new OBJLoader();
 let objModel = null;
 let wackoModel = null;
 
-loader.load('public/sceneC.obj', function (OBJ) {
+loader.load('../public/sceneC.obj', function (OBJ) {
   OBJ.position.set(0, -35, -100); // Set the position to (x, y, z)
 
   // Apply a basic material to the sceneC object
@@ -54,7 +54,7 @@ loader.load('public/sceneC.obj', function (OBJ) {
   console.error(error);
 });
 
-loader.load('public/wackoFeest.obj', function (OBJ) {
+loader.load('../public/wackoFeest.obj', function (OBJ) {
   // Apply texture once it's loaded
   OBJ.traverse(function (child) {
     if (child.isMesh && texture) {

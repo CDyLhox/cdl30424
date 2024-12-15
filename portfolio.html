@@ -5,162 +5,169 @@
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>PORTFOLIO</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="scripts/p5/p5.js"></script>
-        <script src="scripts/p5/addons/p5.sound.min.js"></script>
-      
-    </head>
-    
-    <body class="main">
-        <script src="scripts/bgListener/bgListener.js"></script>
-        <!--[if lt IE 7]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PORTFOLIO</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/p5/p5.js"></script>
+    <script src="scripts/p5/addons/p5.sound.min.js"></script>
+
+</head>
+
+<body class="main">
+    <script src="scripts/bgListener/bgListener.js"></script>
+    <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="header" style="background-color: rgb(0, 0, 0);background-blend-mode: normal ; mix-blend-mode:color-dodge; position:sticky; padding-left: 2%;">
-            
-            <h1>
-                <a id="header" style="text-decoration:none;" href="index.html">PORT.log</a>
-            </h1>
-            <div class="links" id="secondary">
-                <a class="mainlink" href="blog.html">THE LOG</a>
-                <a class="mainlink" href="CDLmusic.html"> CDL-MUSIC</a>
-                <a class="mainlink" href="glitch.html">GLITCH</a>
-                <a class="mainlink" href="portfolio.html">PORTFOLIO</a>
-                <a class="mainlink" href="friends.html">FRIENDS</a>
-          
-                
-                <a href="https://soundcloud.com/hokstamhokstamhokstam">
-                    <img id="link" src="IMG/dlan2.png" alt="HTML tutorial"
-                    style="width:102px;height:82px;position:absolute; right:2%; top:-12px">
-                </a>
+    <div class="header"
+        style="background-color: rgb(0, 0, 0);background-blend-mode: normal ; mix-blend-mode:exclusion; position:relative; padding-left: 2%;">
+
+        <h1>
+            <a id="headerlink" style="text-decoration:none;" href="index.html">PORT.log</a>
+        </h1>
+        <div class="links" id="secondary">
+            <a class="mainlink" href="blog.html">THE LOG</a>
+            <a class="mainlink" href="CDLmusic.html"> CDL-MUSIC</a>
+            <a class="mainlink" href="glitch.html">GLITCH</a>
+            <a class="mainlink" href="portfolio.html">PORTFOLIO</a>
+            <a class="mainlink" href="friends.html">FRIENDS</a>
+
+
+
+        </div>
+    </div>
+
+
+    <div id="sketch_container" style="position: sticky; width: 30%; right: 1%; top:14%; float: right;"></div>
+    <script src="scripts/pixel_sorter/sketch.js"></script>
+
+
+    <div id=Roman>
+
+        <div class="window" id="youtube1"
+            style="background-image: url(IMG/RWRoman.jpeg); background-size:contain; overflow: scroll;">
+            <div class="windowBar"></div>
+            <iframe id="video" width="80%" height="80%" src="https://www.youtube.com/embed/oBwmpMZH970"
+                title="Roman + Intro NVG Live 21 Okt 2024" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <div style="background-color: rgb(0, 0, 0); mix-blend-mode:normal; padding:2%;">
+                <p style="font-size: larger; text-align: left; color:rgb(255, 255, 255);"> First time playing "<a
+                        href="https://www.youtube.com/embed/oBwmpMZH970">Roman</a>"
+                    off of my first Album
+                    "Wacko_" live. very grateful to all my fellow musicians<br>
+                    <a>Lucas Veerkamp </a>on the Alto Sax,<br>
+                    <a>Sytse Vleder </a>on the Guitar,<br>
+                    <a>Damian Been </a>on the Bass Guitar, and<br>
+                    <a>Robin v Ulft </a>on the drums.
+                </p>
             </div>
         </div>
-        
-        <center>
-        <div id=Roman>
-            
-            <div class="window" id="youtube2" style="background-image: url(IMG/RWRoman.jpeg); background-size:contain ; overflow: scroll;">
-                <div class="windowBar"></div>
-                <iframe width="50%" height="1080px" src="https://www.youtube.com/embed/oBwmpMZH970"
-                    title="Roman + Intro NVG Live 21 Okt 2024" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <br>
-                <div style="background-color: rgb(0, 0, 0); mix-blend-mode:normal; padding:2%;">
-                    <p style="font-size: larger; text-align: left; color:rgb(255, 255, 255);"> First time playing "<a href="https://www.youtube.com/embed/oBwmpMZH970">Roman</a>"
-                        off of my first Album
-                        "Wacko_" live. very grateful to all my fellow musicians<br>
-                        <a>Lucas Veerkamp </a>on the Alto Sax,<br>
-                        <a>Sytse Vleder </a>on the Guitar,<br>
-                        <a>Damian Been </a>on the Bass Guitar, and<br>
-                        <a>Robin V Ulft </a>on the drums.
-                    </p>
-                </div>
-            </div>
-            <script>
-                // Target the specific div by its id and class
-                const targetDiv2 = document.querySelector('.window#youtube2');
-        
-                // Add hover event for changing the background image
-                targetDiv2.addEventListener('mouseenter', () => {
-                    console.log('Mouse entered');
-                    targetDiv2.style.backgroundImage = 'url(../img/basicimg/RWRomanI.jpeg)'; // Change to your desired hover image path
-                });
-        
-                targetDiv2.addEventListener('mouseleave', () => {
-                    console.log('Mouse left');
-                    targetDiv2.style.backgroundImage = 'url(../img/basicimg/RWRoman.jpeg)'; // Revert back to the original image
-                });
-            </script>
+        <script>
+            // Target the specific div by its id and class
+            const targetDiv2 = document.querySelector('.window#youtube2');
+
+            // Add hover event for changing the background image
+            targetDiv2.addEventListener('mouseenter', () => {
+                console.log('Mouse entered');
+                targetDiv2.style.backgroundImage = 'url(../img/basicimg/RWRomanI.jpeg)'; // Change to your desired hover image path
+            });
+
+            targetDiv2.addEventListener('mouseleave', () => {
+                console.log('Mouse left');
+                targetDiv2.style.backgroundImage = 'url(../img/basicimg/RWRoman.jpeg)'; // Revert back to the original image
+            });
+        </script>
+    </div>
+
+    <div id=pciicd style="margin-bottom: 5%;">
+        <div class="window" id="youtube1"
+            style="background-image: url(IMG/14a.png); background-size: fit; overflow: scroll;">
+            <iframe id="video" width="80%" height="80%" src="https://www.youtube.com/embed/fuBxELs9Ag4" title="pɔ!¡cd"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p style="text-align: center; color:white; text-align: left;"> this is pɔ!¡cd, a post industrial
+                industrial deconstructed club
+                collective
+                im part of. together with</p>
+            <a>Peer van Kessel,</a>
+            <a> Robin v Ulft,</a>
+            <a>Benjamin Burger,</a>
+            <a>Abtin Sadati</a>
         </div>
+        <script>
+            // Target the specific div by its id and class
+            const targetDiv = document.querySelector('.window#youtube1');
 
-        <div id = pciicd style="margin-bottom: 5%;">
-            <div class="window" id="youtube1" style="background-image: url(IMG/14a.png); background-size: fit; overflow: scroll;" >
-                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/fuBxELs9Ag4" title="pɔ!¡cd"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            // Add hover event for changing the background image
+            targetDiv.addEventListener('mouseenter', () => {
+                console.log('Mouse entered');
+                targetDiv.style.backgroundImage = 'url(../img/basicimg/14ac.png)'; // Change to your desired hover image path
+            });
 
-                <p style="text-align: center; color:white; text-align: left;"> this is pɔ!¡cd, a post industrial industrial deconstructed club
-                    collective
-                    im part of. together with</p>
-                <a>Peer van Kessel</a>
-                <a> Robin V ulft</a>
-                <a>Benjamin Burger</a>
-                <a>Abtin sadati</a>
-            </div>
-            <script>
-                // Target the specific div by its id and class
-                const targetDiv = document.querySelector('.window#youtube1');
+            targetDiv.addEventListener('mouseleave', () => {
+                console.log('Mouse left');
+                targetDiv.style.backgroundImage = 'url(../img/basicimg/14a.png)'; // Revert back to the original image
+            });
+        </script>
+    </div>
+    <div class="window" id="performance">
+        <video  controls width='80%' ; preload="auto">
+            <source src="vid/1 PERFORMANCE.mp4" type="video/mp4">
+            <!-- <source src="video/movie.ogg" type="video/ogg"> -->
+            <!-- <source src="/video/movie.mov" type="video/mov"> -->
+            Your browser does not support the video tag.
+        </video>
+        <p style=" color: white;">
+            in my first year at HKU i built 3 instruments together with <span title="Damian Been en Robin van Ulft"><a
+                    href="friends.html">2 colleague students</a></span>,
+            of which 2 were electronic, and one was electro accoustic.
+        </p>
 
-                // Add hover event for changing the background image
-                targetDiv.addEventListener('mouseenter', () => {
-                    console.log('Mouse entered');
-                    targetDiv.style.backgroundImage = 'url(../img/basicimg/14ac.png)'; // Change to your desired hover image path
-                });
-
-                targetDiv.addEventListener('mouseleave', () => {
-                    console.log('Mouse left');
-                    targetDiv.style.backgroundImage = 'url(../img/basicimg/14a.png)'; // Revert back to the original image
-                });
-            </script>
-        </div>
-        <div class="window" id="performance">
-            <video controls width='50%' ; preload="auto">
-                <source src="vid/1 PERFORMANCE.mp4" type="video/mp4">
-                <!-- <source src="video/movie.ogg" type="video/ogg"> -->
-                <!-- <source src="/video/movie.mov" type="video/mov"> -->
-                Your browser does not support the video tag.
-            </video>
-            <p style="text-align: center;">
-                in het eerste jaar van het HKU heb ik met <span title="Damian Been en Robin van Ulft"><a>2 mede
-                        studenten </a></span>3 instrumenten gebouwd, waarvan 2
-                electronisch, en 1 electro-akoestisch.
-            </p>
-
-            <div class="grow">
-                <h2 style="position:absolute; top:0px;">DC17424</h2>
-                <br>
-                <br>
-                <br>
-                <!-- <p> -->
-                <!-- ik heb in dit project een instrument gebouwd, <li>CDL1[DC17424]</li>
+        <div class="grow">
+            <h2 style="position:absolute; top:0px;">DC17424</h2>
+            <br>
+            <br>
+            <br>
+            <!-- <p> -->
+            <!-- ik heb in dit project een instrument gebouwd, <li>CDL1[DC17424]</li>
                 dit instrument werkt met 4 DC motors, 2 gitaarelementen en een teensy 4.1 microcontroller chip.
                 het instrument heeft ook een potmeter die de een lfo controlleerd van de gate voor alle motors. als deze
                 gate dicht zit hoor je bij sommige frequenties nog wel het instrument piepen met de dc lading. -->
-
+            <p style="color:white">
                 in this project i built my first electro-acoustic instrument. <li> CDL1[DC17424] (richart)</li>
                 this instrument worked with 4 dc motors, 2 guitar pickups and a teensy 4.1 microcontroller.
                 the instrumen also had a controlled a digital lfo mapped to a gate which made it function like AM.
-                <br>
-                <li>
-                    <img src="IMG/Richart/SCENE.png" alt="Richart" style="width: 80%;">
-                </li>
-                <!-- </p> -->
-            </div>
-
-            <div id="Richart" class="grow">
-                <h2 style="position:absolute; top:0px;">Meet our team!</h2>
-                <br>
-                <br>
-                <br>
-                <img src="IMG/Richart/MeetTheTeam.png" alt="" style="width: 100%;">
-
-                <a>Damian-Been</a> <a href="index.html">Dylan-Hokstam</a> <a>Robin-van-Ulft</a>
-
-            </div>
+            </p>
             <br>
-            <br>
-
+            <li>
+                <img src="IMG/Richart/SCENE.png" alt="Richart" style="width: 80%;">
+            </li>
+            <!-- </p> -->
         </div>
 
-    </center>
+        <div id="Richart" class="grow">
+            <h2 style="position:absolute; top:0px;">Meet our team!</h2>
+            <br>
+            <br>
+            <br>
+            <img src="IMG/Richart/MeetTheTeam.png" alt="" style="width: 100%;">
+
+            <a>Damian-Been</a> <a href="index.html">Dylan-Hokstam</a> <a>Robin-van-Ulft</a>
+
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+
 
     <!-- <script src="" async defer></script> -->
 </body>

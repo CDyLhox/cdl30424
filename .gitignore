@@ -11,6 +11,8 @@
 *.aif
 *.aiff
 *.m4a
+*.obj
+*.fbx
 
 /songs/
 /simple/

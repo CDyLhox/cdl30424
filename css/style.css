@@ -242,7 +242,7 @@ body.main.hover-active {
   padding-left: 3%;
 }
 
-@media only screen and (max-width: 800px) {}
+
 
 .header {
   background-blend-mode: color-burn;
@@ -307,6 +307,11 @@ body.main.hover-active {
     1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
 }
 
+#headerlink {
+  text-shadow: 2px 0 wheat, -2px 0 wheat, 0 2px wheat, 0 -2px wheat,
+    1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
+}
+
 .header h1:hover {
   padding: 1%
 }
@@ -324,22 +329,11 @@ body.main.hover-active {
   z-index: 0;
 }
 
-@media only screen and (max-width: 600px) {
-  div#secondary.links a.mainlink {
-    width: 55%;
-    float: left;
-    color: rgb(255, 0, 0);
-    /* mix-blend-mode: difference; */
-    font-size: 1.2em;
-    text-shadow: 2px 0 wheat, -1px 0 wheat, 0 1px wheat, 0 -1px wheat,
-      1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
-    transition: 1s;
-    padding-bottom: 1%;
-  }
-}
+
 
 div#secondary.links a.mainlink {
   width: 55%;
+  /* float: right; */
   /* float:left; */
   color: rgb(255, 0, 0);
   /* mix-blend-mode: difference; */
@@ -442,6 +436,8 @@ h2 {
 }
 
 a {
+  text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
   color: rgb(204, 0, 91);
   font-weight: 900;
 
@@ -468,16 +464,17 @@ a:hover {
   margin: 2%;
   background-color: white;
   background-image: url(../img/basicimg/horses_sstv.jpg);
-  background-blend-mode:multiply;
+  background-blend-mode: multiply;
   /* background-blend-mode:luminosity; */
   background-size: 80%;
   background-position: 50% 50%;
 }
+
 #threedscan {
   margin: 2%;
   background-color: white;
   background-image: url(../img/basicimg/horses_sstv.jpg);
-  background-blend-mode:multiply;
+  background-blend-mode: multiply;
   /* background-blend-mode:luminosity; */
   background-size: 80%;
   background-position: 50% 50%;
@@ -521,8 +518,8 @@ a:hover {
 
   border: 5px solid transparent;
   margin: 0px;
-  border-radius: 0px;
-  border-image: url('../img/basicimg/bg1.png') 50 space;
+  border-radius: 3px;
+  border-image: url('../img/basicimg/bg1.png') 50;
 
   overflow: hidden;
 }
@@ -596,7 +593,7 @@ div#LoveUnder.window {
 
 
 
-@media only screen and (max-width: 700px) {}
+
 
 #wacko {
   color: rgb(255, 0, 102);
@@ -639,18 +636,10 @@ div#LoveUnder.window {
 
 div#youtube1.window {
 
-  float: right;
+
   width: 65%;
   margin: 3%;
   height: 60vh;
-}
-
-div#youtube2.window {
-
-  width: 65%;
-  float: right;
-  margin: 3%;
-  height: 70vh;
 }
 
 
@@ -731,13 +720,61 @@ div#wackoWindow.window {
     background-color: rgb(203, 0, 81);
     mix-blend-mode: difference;
     background-image: url('../img/basicimg/bg7.jpeg');
-    /* background-color: #717171; */
+mix-blend-mode: normal;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0px 600px;
     background-size: 127% 200%;
 
 
+  }
+
+  div#secondary.links a.mainlink {
+    width: 50%;
+    float: right;
+    text-align: end;
+    text-overflow: ellipsis;
+    position: relative;
+    /* top: -35px; */
+    /* float:left; */
+    color: rgb(255, 0, 0);
+    /* mix-blend-mode: difference; */
+    font-size: 1em;
+    text-shadow: 2px 0 wheat, -1px 0 wheat, 0 1px wheat, 0 -1px wheat,
+      1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
+    transition: 1s;
+  }
+
+  /* .header {
+    mix-blend-mode: normal;
+    height: 60px;
+  } */
+  /* div#secondary.links a.mainlink:hover{
+    display: initial;
+  } */
+
+  #video {
+    width: auto;
+
+  }
+
+  .bgListener {
+    display: none;
+  }
+
+  body {
+    background-image: url(../img/basicimg/bg10.jpeg);
+    background-position: top;
+    background-size: cover;
+  }
+
+  #sketch_container {
+    display: none;
+  }
+
+  div#youtube1.window {
+    align-items: center;
+    width: auto;
   }
 
 
@@ -812,7 +849,7 @@ div#wackoWindow.window {
     right: 2%;
     /* Remove float: right */
     padding: 0%;
-    top: 20%;
+    top: 60%;
     width: 100px;
     height: 170px;
     /* Set a fixed width instead of a percentage */
@@ -871,7 +908,7 @@ div#wackoWindow.window {
 div#performance.window {
   width: 65%;
   margin: 3%;
-  float: right;
+
   background-blend-mode: normal;
   opacity: 90%;
   background-image: url('../img/Richart/P52.png'), url('../img/Richart/p.jpg');

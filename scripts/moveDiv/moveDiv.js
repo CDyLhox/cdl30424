@@ -1,3 +1,7 @@
+function isMobile() {
+    return /Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+}
+
 
 function randomizePosition(elmnt) {
     const viewportWidth = window.innerWidth;
@@ -13,7 +17,9 @@ function randomizePosition(elmnt) {
 }
 
 const mainwindow = document.getElementById("mainWindow");
-randomizePosition(mainwindow);
+if(window.innerWidth>800){
+    randomizePosition(mainwindow);
+}
 dragElement(mainwindow);
 
 
