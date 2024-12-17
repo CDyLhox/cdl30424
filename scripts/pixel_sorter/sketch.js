@@ -11,7 +11,7 @@ let thisimg;
 
 function setup() {
   let cnv = createCanvas(windowWidth / 100 * 25, windowHeight / 100 * 80);
-  cnv.parent('sketch-container');
+  cnv.parent('sketch_container');
   // Resize the image so it fits on the screen.
   // We make it 100x100 so we can see individual pixels.
   thisimg = floor(random(10))
@@ -27,7 +27,7 @@ function draw() {
     img.loadPixels();
 
     // Loop 100 times to speed up the animation.
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 50; i++) {
       sortPixels();
     }
 

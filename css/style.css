@@ -720,7 +720,7 @@ div#wackoWindow.window {
     background-color: rgb(203, 0, 81);
     mix-blend-mode: difference;
     background-image: url('../img/basicimg/bg7.jpeg');
-mix-blend-mode: normal;
+    mix-blend-mode: normal;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0px 600px;
