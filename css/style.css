@@ -473,10 +473,11 @@ a:hover {
 #threedscan {
   margin: 2%;
   background-color: white;
-  background-image: url(../img/basicimg/horses_sstv.jpg);
+  background-size: cover;
+  background-image: url(../img/basicimg/laptop_one.jpg);
   background-blend-mode: multiply;
   /* background-blend-mode:luminosity; */
-  background-size: 80%;
+  background-size: 100%;
   background-position: 50% 50%;
 }
 
