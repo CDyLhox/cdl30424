@@ -429,6 +429,17 @@ h1 {
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
+.nerdLinks {
+  background-color: #777;
+  opacity: 90%;
+  color: rgb(255, 204, 0);
+  font-weight: 800;
+  text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+    display: inline-block;
+
+}
+
 h2 {
   color: rgb(193, 0, 71);
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
