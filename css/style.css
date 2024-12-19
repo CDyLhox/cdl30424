@@ -500,17 +500,22 @@ a:hover {
   /* border: 1px solid black; */
   /* border-radius:5%; */
   /* color: white; */
-  position: absolute;
+  position: relative;
+  float: right;
   top: 1%;
+  width: 66px;
+  height: 22px;
   /* left: 10%; */
-  padding: 5px 3px;
-  background-image: url('../img/basicimg/dlan2\(blk\)\ copy.png');
+
+  background-image: url('../img/CDLbutton.gif');
   background-size: 100%;
   background-repeat: round;
 
+  padding-bottom: 1%;
+
   position: absolute;
-  right: 0%;
-  display: inline-block;
+  right: 1%;
+  display: block;
   font-size: 16px;
 }
 
