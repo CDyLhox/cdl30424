@@ -36,6 +36,7 @@ function dragElement(elmnt) {
     function dragMouseDown(e) {
         e.preventDefault();
         initializeDrag(e.clientX, e.clientY);
+        mainwindow.style.cursor = "grabbing";
         document.onmouseup = closeDragElement;
         document.onmousemove = elementDrag;
     }
@@ -75,6 +76,7 @@ function dragElement(elmnt) {
     }
 
     function closeDragElement() {
+        mainwindow.style.cursor = "grab";
         document.onmouseup = null;
         document.onmousemove = null;
         document.ontouchend = null;

@@ -644,6 +644,7 @@ div#LoveUnder.window {
 
 
 #windowHeader {
+  cursor: all-scroll;
   display: block;
   width: 100%;
   color: rgb(203, 0, 81);

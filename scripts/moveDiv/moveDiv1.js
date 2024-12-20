@@ -33,6 +33,7 @@ function dragElement(elmnt) {
     function dragMouseDown(e) {
         e.preventDefault();
 
+        mainwindow1.style.cursor = "grabbing";
         // Get initial cursor position and element position:
         initialX = e.clientX;
         initialY = e.clientY;
@@ -56,6 +57,7 @@ function dragElement(elmnt) {
     }
 
     function closeDragElement() {
+        mainwindow1.style.cursor = "grab";
         document.onmouseup = null;
         document.onmousemove = null;
     }
