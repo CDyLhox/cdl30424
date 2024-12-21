@@ -481,6 +481,18 @@ a:hover {
   background-position: 50% 50%;
 }
 
+#FlightToTaiwan{
+  width: 95%;
+  margin: 2%;
+  background-color: white;
+  background-size: cover;
+  background-image: url(../img/basicimg/PlaneBG.jpg);
+  background-blend-mode: multiply;
+  /* background-blend-mode:luminosity; */
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
 #threedscan {
   margin: 2%;
   background-color: white;
@@ -685,6 +697,14 @@ div#mainWindow.window {
   /* Retain overflow as needed */
 }
 
+.gifimg {
+  width: 30%;
+  float: right;
+  border: 3px solid black;
+  margin-right: 2%;
+  margin-left: 2%;
+
+}
 
 div#mainWindow1.window {
   position: absolute;
@@ -696,6 +716,23 @@ div#mainWindow1.window {
   top: 25%;
   width: 300px;
   background-image: url('../img/Richart/buble.png');
+  /* Set a fixed width instead of a percentage */
+
+  margin: 1%;
+  overflow: hidden;
+  /* Retain overflow as needed */
+}
+
+div#blogWindow.window {
+  position: absolute;
+  /* Keep absolute positioning for drag functionality */
+  right: 0%;
+
+  /* Remove float: right */
+  padding: 0%;
+  top: 25%;
+  width: 300px;
+  background-image: url('../img/basicimg/horses_sstv.jpg');
   /* Set a fixed width instead of a percentage */
 
   margin: 1%;
