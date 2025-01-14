@@ -8,6 +8,10 @@
     "url": "music/demos/15sept24canon&ls.mp3"
   },
   {
+    "name": "2 may klaba vocoder&granular.mp3",
+    "url": "music/demos/2 may klaba vocoder&granular.mp3"
+  },
+  {
     "name": "23apr19424.mp3",
     "url": "music/demos/23apr19424.mp3"
   },
@@ -24,6 +28,10 @@
     "url": "music/demos/26_okt_24itsnottheeindvandewereld.mp3"
   },
   {
+    "name": "27_feb_22_nice_weather_1.mp3",
+    "url": "music/demos/27_feb_22_nice_weather_1.mp3"
+  },
+  {
     "name": "29 jun(aB).wav",
     "url": "music/demos/29 jun(aB).wav"
   },
@@ -34,5 +42,13 @@
   {
     "name": "3 dec.SSTVrmbrm.SSi3SLOW.mp3",
     "url": "music/demos/3 dec.SSTVrmbrm.SSi3SLOW.mp3"
+  },
+  {
+    "name": "3feb24clear.mp3",
+    "url": "music/demos/3feb24clear.mp3"
+  },
+  {
+    "name": "5_aug_rue_marie_therese.mp3",
+    "url": "music/demos/5_aug_rue_marie_therese.mp3"
   }
 ]

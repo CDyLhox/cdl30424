@@ -385,7 +385,7 @@ p {
   /* padding: 15px;
   border-image: url('../img/basicimg/bg1.png') 30 space; */
   border-radius: 10px;
-  width: 80vw;
+  /* width: 80vw; */
   /* background-image: url('../img/basicimg/bg3.jpeg'); */
   text-align: justify;
   font-size: large;
@@ -481,7 +481,7 @@ a:hover {
   background-position: 50% 50%;
 }
 
-#FlightToTaiwan{
+#FlightToTaiwan {
   width: 95%;
   margin: 2%;
   background-color: white;
@@ -492,6 +492,19 @@ a:hover {
   background-size: 100%;
   background-position: 50% 50%;
 }
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(102%);
+  /* width: 400px; */
+  background-color: rgb(255, 255, 255);
+  /* height: 200px; */
+  border: 2px solid red;
+}
+
+caption {
+  text-align: center;
+}
+
 
 #threedscan {
   margin: 2%;
@@ -989,13 +1002,14 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 110%;
+  width: 100%;
   height: auto;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+
 }
 
 * {
@@ -1003,9 +1017,16 @@ div.desc {
 }
 
 .responsive {
+  background-image: url("../img/basicimg/bg7.1.jpeg");
+  color: white;
+  font-weight: 800;
+  text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
   padding: 0 6px;
+  font-size: larger;
+  overflow: hidden;
   float: left;
-  width: 24.99999%;
+  width: auto;
 }
 
 @media only screen and (max-width: 700px) {
