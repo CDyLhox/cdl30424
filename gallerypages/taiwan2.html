@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>GALLERY-YAIWWAN2</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body class="main" style="background-image: url(../img/basicimg/parkinglot.jpeg)">
+    <!-- <script src="scripts/bgListener/bgListener.js"></script> -->
+
+
+    <div class="header" style="position: -webkit-sticky;">
+      <h1>
+        <a id="headerlink" style="text-decoration:none;" href="../index.html">CAGE.log</a>
+      </h1>
+    </div>
+    <div class="window" id="FlightToTaiwan" style="display: inline-block; float: right; width: 40%;">
+      <h1 style="font-size: larger; text-align: right;">sun12jan25</h1>
+      <P style="color:rgb(255, 225, 0); font-weight: 800; text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; text-align: right;  ">
+      Here's some film fotos of my and my girflriend on our trip through Taiwan - winter 2024
+      </P>
+    </div>
+    <a href="../gallery.html">
+      <div class="window"
+           style="display: inline-block; float: left; width: 10%; background-image:url(../img/basicimg/horses_sstv.jpg); padding: 1%; margin: 2%;">
+        <P style="color:rgb(255, 255, 255); font-weight: 800; text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+                  1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; text-align: center; margin: 2%;  ">
+        go.back();
+        </P>
+      </div>
+    </a>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script>
+                fetch('../galleryImagesTaiwan2.json')
+                .then(response => response.json())
+                .then(images => {
+                    const galleryContainer = document.getElementById('gallery-container');
+                    images.forEach(image => {
+                        const galleryItem = `
+          <div class="responsive" style="width:24.9%; margin:auto">
+              <div class="gallery">
+                  <a target="_blank" href="${image.url}" >
+                      <img src="../${image.url}" alt="${image.name}" "">
+                  </a>
+                  <div class="desc">${image.name}</div>
+              </div>
+          </div>`;
+                        galleryContainer.innerHTML += galleryItem;
+                    });
+                });
+        </script>
+
+        <div id="gallery-container"></div>
+
+
+
+        <script src="" async defer></script>
+
+
+  </body>
+</html>
