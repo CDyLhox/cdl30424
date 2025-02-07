@@ -13,7 +13,11 @@
 *.m4a
 *.obj
 *.fbx
-
+*~
+*.zip
+*.swp
+**/.DS_Store
+*.un~
 /songs/
 /simple/
 /sample/

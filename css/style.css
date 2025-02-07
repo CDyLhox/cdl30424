@@ -111,6 +111,8 @@ body {
 	line-height: 1;
 }
 
+
+
 * {
 	box-sizing: border-box;
 }
@@ -395,7 +397,7 @@ text-overflow: clip;
 /* transition: color 2 ms; */
 }
 
-.p1 {
+.p1 {  font-family: 'Times New Roman', serif;
 	margin-left: 2%;
 	text-align: justify;
 	width: 90vw;
