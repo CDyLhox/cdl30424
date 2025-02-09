@@ -26,6 +26,7 @@ body {
 	background: #0080FF;
 	text-shadow: none;
 }
+
 .typewriter p {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typewriter cursor */
@@ -35,6 +36,18 @@ body {
     width: 0; /* Start from zero width */
     color:lime;
     animation: typing 0.5s steps(40, end) forwards, blink-caret .75s step-end infinite;
+}
+
+.typewriter p.linksByLucas {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typewriter cursor */
+    white-space: pre-wrap; /* Preserves line breaks */
+    word-wrap: break-word; /* Ensures text wraps */
+    display: block; /* Ensures it behaves like a normal <pre> */
+    width: 0; /* Start from zero width */
+    color:#ff33cc;
+    animation: typing 0.5s steps(40, end) forwards, blink-caret .75s step-end infinite;
+    font-size:larger;
 }
 /* The typing effect */
 @keyframes typing {
