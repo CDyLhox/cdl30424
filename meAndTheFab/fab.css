@@ -1,0 +1,42 @@
+body{
+	background-image:url(../img/basicimg/parkinglot.jpeg)
+}
+
+audio {
+	filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(102%);
+	/* width: 400px; */
+	background-color: rgb(255, 255, 255);
+	/* height: 200px; */
+	border: 2px solid red;
+}
+
+p {  font-family: 'Times New Roman', serif;
+	margin-left: 2%;
+	text-align: justify;
+	width: 90vw;
+	
+	text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+	1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+
+	text-overflow: clip;
+	color: lightgray;
+}
+img{width: 49%;
+border: 2px solid lightgray}
+video{width: 49%;
+border: 2px solid lightgray}
+
+h1{
+
+	text-shadow: 1px 0 lightgray, -1px 0 lightgray, 0 1px lightgray, 0 -1px lightgray,
+	1px 1px lightgray, -1px -1px lightgray, 1px -1px lightgray, -1px 1px lightgray;
+}
+h2{
+	text-shadow: 1px 0 lightgray, -1px 0 lightgray, 0 1px lightgray, 0 -1px lightgray,
+
+
+		1px 1px lightgray, -1px -1px lightgray, 1px -1px lightgray, -1px 1px lightgray;
+
+
+
+}

@@ -2,8 +2,8 @@ import os
 import json
 
 # Set the folder path and output file
-folder_path = "img/gallery/taiwan2"
-output_file = "galleryImagesTaiwan2.json"
+folder_path = "img/gallery/personalGallery"
+output_file = "personalGallery.json"
 
 # List to hold image metadata
 images = []
