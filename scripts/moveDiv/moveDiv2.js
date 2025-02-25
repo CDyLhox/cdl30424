@@ -6,8 +6,8 @@ function randomizePosition(elmnt) {
     const randomY = Math.floor(Math.random() * (viewportHeight - elmnt.offsetHeight));
 
     elmnt.style.position = "absolute";
-    elmnt.style.left = randomX + "px";
-    elmnt.style.top = randomY + "px";
+    elmnt.style.left = 76 + "%";
+    elmnt.style.top = 8 + "%";
 
 }
 

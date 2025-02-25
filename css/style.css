@@ -279,7 +279,7 @@ body.main.hover-active {
 	/* background-image: url('../img/basicimg/bg6blk 3.jpeg'); */
 	background-color: rgba(100, 100, 100, 0.6);
 	overflow: hidden;
-	width: 100vw;
+	width: 75vw;
 	margin: 0%;
 	padding: 1%;
 	position: fixed;
@@ -830,6 +830,20 @@ div#wackoWindow.window {
 		1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
 		transition: 1s;
 	}
+	.footer {
+		border-radius: 6%;
+		/* background-image: url('../img/basicimg/bg6blk 3.jpeg'); */
+		background-color: rgba(100, 100, 100, 0.6);
+		overflow: hidden;
+		width: 100%;
+		margin: 0%;
+		padding: 0%;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		/* float: right; */
+		/* margin-bottom: 12%; */
+	}
 
 	/* .header {
 	mix-blend-mode: normal;
@@ -865,27 +879,13 @@ div#youtube1.window {
 
 
 .eightyeight {
-	border: 3px solid black;
 	margin-bottom: 0;
 	float: right;
+	border: 3px solid black;
 	position: relative;
 	border-style: outset;
 }
 
-.footer {
-	border-radius: 6%;
-	/* background-image: url('../img/basicimg/bg6blk 3.jpeg'); */
-	background-color: rgba(100, 100, 100, 0.6);
-	overflow: hidden;
-	width: 100vw;
-	margin: 0%;
-	padding: 0%;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	/* float: right; */
-	/* margin-bottom: 12%; */
-}
 
 .tracklisting {
 
@@ -1124,6 +1124,8 @@ div.desc {
 	bottom: 8px;
 	width: 100%;
 	text-align: center;
+	text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+
 }
 
 /* Number text (1/3 etc) */
