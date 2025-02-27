@@ -336,6 +336,7 @@ body.main.hover-active {
 div#secondary.links a.mainlink {
 	width: 55%;
 	/* float: right; */
+	background-color:black;
 	/* float:left; */
 	color: rgb(255, 0, 0);
 	/* mix-blend-mode: difference; */
@@ -1124,8 +1125,6 @@ div.desc {
 	bottom: 8px;
 	width: 100%;
 	text-align: center;
-	text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
-
 }
 
 /* Number text (1/3 etc) */
