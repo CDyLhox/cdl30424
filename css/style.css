@@ -336,7 +336,6 @@ body.main.hover-active {
 div#secondary.links a.mainlink {
 	width: 55%;
 	/* float: right; */
-	background-color:black;
 	/* float:left; */
 	color: rgb(255, 0, 0);
 	/* mix-blend-mode: difference; */
@@ -423,6 +422,19 @@ text-overflow: clip;
 canvas {
 	border: 1px solid black;
 }
+
+h3 {
+	color: rgb(203, 0, 81);
+	border: 3px solid transparent;
+	background-color:rgb(50,50,50);
+	padding-bottom: 1%;
+	top:50%;
+	text-align: left;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+	1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+
 
 h1 {
 	color: rgb(203, 0, 81);
@@ -703,8 +715,11 @@ div#youtube1.window {
 
 
 .maintext {
-	width: 75%;
-	float: left
+	width: 70;
+	float: left;
+	background-color: rgba(100,100,100,0.5);
+
+
 }
 
 div#mainWindow.window {
