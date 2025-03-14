@@ -7,21 +7,21 @@ function randomizePosition(elmnt) {
 
     elmnt.style.position = "absolute";
     elmnt.style.left = 0 + "%";
-    elmnt.style.top = 12 + "%";
+    elmnt.style.top = 100 + "%";
 
 }
 
-const mtxt = document.getElementById("mainPageText");
-randomizePosition(mtxt);
-dragElement(mtxt);
+const ermt = document.getElementById("extraMainText1");
+randomizePosition(ermt);
+dragElement(ermt);
 
 
 
 function dragElement(elmnt) {
     var pos1 = 0, pos2 = 0, initialX = 0, initialY = 0;
 
-    if (document.getElementById(elmnt.id + "windowHeader4")) {
-        document.getElementById(elmnt.id + "windowHeader4").onmousedown = dragMouseDown;
+    if (document.getElementById(elmnt.id + "windowHeader5")) {
+        document.getElementById(elmnt.id + "windowHeader5").onmousedown = dragMouseDown;
     } else {
         elmnt.onmousedown = dragMouseDown;
     }
@@ -29,7 +29,7 @@ function dragElement(elmnt) {
     function dragMouseDown(e) {
         e.preventDefault();
 
-        mtxt.style.cursor = "grabbing";
+        ermt.style.cursor = "grabbing";
 
         // Get initial cursor position and element position:
         initialX = e.clientX;
@@ -54,7 +54,7 @@ function dragElement(elmnt) {
     }
 
     function closeDragElement() {
-        mtxt.style.cursor = "grab";
+        ermt.style.cursor = "grab";
         document.onmouseup = null;
         document.onmousemove = null;
     }

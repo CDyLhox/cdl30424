@@ -7,7 +7,7 @@ function randomizePosition(elmnt) {
 
     elmnt.style.position = "absolute";
     elmnt.style.left = 0 + "%";
-    elmnt.style.top = 55 + "%";
+    elmnt.style.top = 59 + "%";
 
 }
 
