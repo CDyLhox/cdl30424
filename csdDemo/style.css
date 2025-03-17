@@ -56,7 +56,7 @@ body {
 }
 img {
 float: right;
-padding:1%
+padding:1%;
 }
 .btn {
 	position: fixed;
@@ -80,6 +80,10 @@ li{
 }
 
 video{
-width:70%;
+width:60%;
+margin:5%;
 float: right;
+border: 2px solid;
+border-color: rgb(255, 153, 51);
+box-shadow: 0 0 5px #C8C8C8;
 }
