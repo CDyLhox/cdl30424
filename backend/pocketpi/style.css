@@ -37,6 +37,17 @@ body {
 	color:lime;
 	animation: typing 0.5s steps(40, end) forwards, blink-caret .75s step-end infinite;
 }
+.typewriter table {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typewriter cursor */
+	white-space: pre-wrap; /* Preserves line breaks */
+	word-wrap: break-word; /* Ensures text wraps */
+	display: block; /* Ensures it behaves like a normal <pre> */
+	width: 0; /* Start from zero width */
+	color:rgb(100, 153, 51);
+	animation: typing 0.5s steps(40, end) forwards, blink-caret .75s step-end infinite;
+	font-size:1em;
+}
 
 .typewriter p.linksByLucas {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */

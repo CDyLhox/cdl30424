@@ -55,13 +55,13 @@ body {
 	to { width: 100% }
 }
 img {
-float: right;
-padding:1%;
+	float: right;
+	padding:1%;
 }
 .btn {
 	position: fixed;
-       	bottom: 5%;
-       	left: 5%;
+	bottom: 5%;
+	left: 5%;
 	color: lime;
 	padding: 10px;
 	height: 40px;
@@ -80,10 +80,16 @@ li{
 }
 
 video{
-width:60%;
-margin:5%;
-float: right;
-border: 2px solid;
-border-color: rgb(255, 153, 51);
-box-shadow: 0 0 5px #C8C8C8;
+	width:60%;
+	margin:5%;
+	float: right;
+	border: 2px solid;
+	border-color: rgb(255, 153, 51);
+	box-shadow: 0 0 5px #C8C8C8;
+} audio {
+	filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(102%);
+	/* width: 400px; */
+	background-color: rgb(255, 255, 255);
+	/* height: 200px; */
+	border: 2px solid blue;
 }

@@ -39,6 +39,7 @@ body {
 	font-size:1.6em;
 }
 
+
 .typewriter p.linksByLucas {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid orange; /* The typewriter cursor */
