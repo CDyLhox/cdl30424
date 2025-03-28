@@ -4,6 +4,7 @@
 *.WAV
 *.png
 *.jpg
+*.gif
 *.jpeg
 *.mp4
 *.mp3
@@ -24,10 +25,10 @@
 /simple/
 /sample/
 /ow/
-/img/basicimg/
+#/img/basicimg/
 /vid/
 /music/
-/img
+#/img
 scripts/p5/
 ./vid/slitscnanerd.mp4
 ./music/songs/Wwav/6 jan (meditation 2.2).wav
