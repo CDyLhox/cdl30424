@@ -27,6 +27,12 @@ body {
 	text-shadow: none;
 }
 
+.project p{
+	padding-left: 3%;
+	font-size:small;
+	color: rgb(255, 204, 0);
+}
+
 .typewriter p {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid orange; /* The typewriter cursor */

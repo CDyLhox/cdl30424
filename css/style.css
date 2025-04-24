@@ -238,8 +238,8 @@ body.main.hover-active {
 
 #musicheader {
 	background-color: black;
-	background-blend-mode: saturation;
-	mix-blend-mode: multiply;
+/*	background-blend-mode: saturation;*/
+	mix-blend-mode: none !important;
 	position: -webkit-sticky;
 	padding-left: 3%;
 }
@@ -249,7 +249,7 @@ body.main.hover-active {
 .header {
 	background-blend-mode: color-burn;
 	background-color: rgb(203, 0, 81);
-	mix-blend-mode: difference;
+	/*mix-blend-mode: difference;*/
 	background-image: url('../img/basicimg/bg10.webp');
 	/* background-color: #717171; */
 	background-size: contain;
@@ -333,18 +333,27 @@ body.main.hover-active {
 
 
 
+div#thricendary.links a.mainlink {
+	width: 55%;
+	color: rgb(255, 0, 0);
+	text-shadow: 2px 0 wheat, -1px 0 wheat, 0 1px wheat, 0 -1px wheat,
+	1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
+	transition: 1s;
+	font-size:1.5em
+}
+div#thricendary.links a.mainlink:hover {
+	font-size: 2em;
+}
+
+
 div#secondary.links a.mainlink {
 	width: 55%;
-	/* float: right; */
-	/* float:left; */
 	color: rgb(255, 0, 0);
-	/* mix-blend-mode: difference; */
 	font-size: 1.2em;
 	text-shadow: 2px 0 wheat, -1px 0 wheat, 0 1px wheat, 0 -1px wheat,
 	1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
 	transition: 1s;
 }
-
 div#secondary.links a.mainlink:hover {
 	font-size: 2em;
 }
