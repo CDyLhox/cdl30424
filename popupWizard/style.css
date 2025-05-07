@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+:root{
+--main-color: rgb(230,230,220);
+--main-color-bright:rgb(250,250,240);
+
+}
+.wizContainer{
+	border: 2px solid black;
+	display:block;
+	width:12.5%;
+	height:49.8%;
+	
+	top:0;
+	position: absolute;
+	left:0;
+
+	background-color: var(--main-color);
+	overflow: hidden;
+	/*TODO: OVERFLOW*/
+
+}
+
+.wiz {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.wiz img {
+	position: absolute;
+	display: block;
+}
+
+.faceImg {
+  width: 47%;
+  margin-top: -2%;
+  top:19%;
+  left:26%;
+
+  z-index: 0;
+}
+.hatImg {
+  width: 100%;
+  margin-top: 0%;
+  top:0%;
+  margin-left: 0%;
+  z-index: 0;
+}
+#wizZone{
+height:100%;
+margin:0;
+width:100vw;
+padding:0;
+overflow:hidden;
+}
+
+.eyeImg {
+	width: 2%;
+	margin-top: -6%;
+	margin-left: 22%;
+	z-index: 4;
+}
+
+.bodyImg {
+  width: 98.5%;
+  margin-top: -1%;
+  margin-left: 1.5%;
+  top:40%;
+  z-index: 0;
+}
+
+.eyesImg {
+  width: 30%;
+  left: 32.7%;
+  top: 29.3%;
+
+  z-index: 0;
+}
+.closeButton{
+	position:relative;
+	right:-78%;
+	display:inline-block;
+	
+  width: 21%;
+  height: 10%;
+  margin-top: 0%;
+  top:0%;
+  margin-left: 0%;
+  z-index: 0;
+  border:1% solid black;
+  border-radius: 0;
+  background-color:red;
+
+}
+
+.wizardQuestion{
+position:absolute;
+display: block;
+width:79%;
+bottom:20%;
+font-family: 'Brush Script MT', cursive;
+font-size:1.5em;
+line-height:0.9;
+font-weight:100;
+background-color:var(--main-color);
+color:blue;
+
+}
+
+.wizardSubmit{
+position:absolute;
+	right:0;
+	display:inline-block;
+	color:var(--main-color);
+	
+  width: 50%;
+  height: 10%;
+  top:80.5%;
+  margin-left: 0%;
+  z-index: 0;
+  border:1% solid black;
+  border-radius: 0;
+  background-color:blue;
+
+}
+.wizardInput{
+position:absolute;
+	left:0;
+	display:inline-block;
+	background-color:var(--main-color-bright);
+	
+  height: 8%;
+  top:90.4%;
+  left:-1%;
+  z-index: 0;
+  border:1% solid black;
+  border-radius: 0;
+  color:blue;
+
+}
+
