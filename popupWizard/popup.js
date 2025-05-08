@@ -63,8 +63,8 @@ function createWizard() {
 	}
 
 	container.style.position = 'absolute';
-	container.style.left = Math.random() * window.innerWidth * 1 + 'px';
-	container.style.top = Math.random() * window.innerHeight * 1 + 'px';
+	container.style.left = Math.random() * window.innerWidth * 0.9 + 'px';
+	container.style.top = Math.random() * window.innerHeight * 0.9 + 'px';
 
 	const script = document.createElement('script');
 	script.src = 'popupWizard/popup.js';
@@ -113,7 +113,9 @@ function createWizard() {
 	container.append(wiz);
 	container.append(question);
 
-	dragthisElement(container);
+
+//NOTE: less user friendly more funny
+	//dragthisElement(container);
 	const eyes = wiz.querySelector('.eyesImg');// The eyes are the window to the soul
 	setInterval(() => {
 		demandAttention(eyes);
@@ -173,9 +175,9 @@ if(Math.floor(Math.random()*2) == 0){makeWizard();}
 // ______________ DRAG WIZARD ____________
 
 const dragWizards = document.querySelectorAll('.wizContainer');
-for (const dragWizard of dragWizards) {
+/*for (const dragWizard of dragWizards) {
 	dragthisElement(dragWizard);
-}
+}*/
 
 function dragthisElement(elemnt) {
 	console.log("draggeable")

@@ -286,9 +286,13 @@ bottom:20%;
 font-family: 'Brush Script MT', cursive;
 font-size:1.5em;
 line-height:0.9;
+left:1%;
 font-weight:100;
 /*background-color:var(--main-color);*/
 color:blue;
+	text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+	1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+
 
 }
 
@@ -326,6 +330,15 @@ position:absolute;
 }
 
 /* ~wizard */
+
+/*friends*/
+.friends{
+padding-left: 15%;
+padding-top: 3%;  
+text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+    }
+/*~friends*/
 
 
 @media only screen and (min-width: 768px) {
@@ -387,7 +400,6 @@ position:absolute;
 /*	background-blend-mode: saturation;*/
 	mix-blend-mode: none !important;
 	position: -webkit-sticky;
-	padding-left: 3%;
 }
 
 
@@ -595,11 +607,15 @@ h1 {
 	color: rgb(203, 0, 81);
 	border: 3px solid transparent;
 	padding: 15px;
+	text-shadow: 8px 0 wheat, -8px 0 wheat, 0 8px wheat, 0 -8px wheat,
+	8px 1px wheat, -8px -1px wheat, 1px -8px wheat, -1px 8px wheat!important;
+	transition: 1s;
+	font-size:6.5em;
 
 	/* border-image: url('../img/basicimg/bg1.webp') 30 space; */
 	text-align: left;
-	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
-	1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+	text-shadow: 8px 0 #000000, -8px 0 #000000, 0 8px #000000, 0 -8px #000000,
+	1px 8px #000000, -1px -8px #000000, 1px -8px #000000, -1px 8px #000000;
 }
 
 .nerdLinks {
@@ -762,6 +778,22 @@ caption {
 	/*test */
 
 
+}
+
+#contact{
+margin:3%;
+width:50%;
+margin-right: 1%;
+display:inline-block;
+}
+#contactImage{
+margin:3%;
+margin-left:0%;
+width:43%;
+display:inline-block;
+float:right;
+}
+#contactImage img{
 }
 
 #mlem {
