@@ -2,15 +2,16 @@ import os
 import json
 
 # Set the folder path and output file
-folder_path = "img/gallery/personalGallery"
-output_file = "personalGallery.json"
+folder_path = "img/gallery/taiwan2"
+output_file = "galleryImagesTaiwan2.json"
 
 # List to hold image metadata
 images = []
 
 # Iterate through files in the folder
 for file in sorted(os.listdir(folder_path)):
-    if file.lower().endswith(('.jpg', '.jpeg', '.png', '.gif')):
+    #if file.lower().endswith(('.jpg', '.jpeg', '.png', '.gif')):
+    if file.lower().endswith(('.webp')):
         # Use relative URL
         images.append({"name": file, "url": f"{folder_path}/{file}"})
 
