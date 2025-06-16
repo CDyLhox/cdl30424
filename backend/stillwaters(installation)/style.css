@@ -1,0 +1,109 @@
+video{
+width: 100%;
+}
+body{
+background-color:#FFC300;
+background-image:url('assets/images/playground/colorfulPlayground.jpg');
+background-size:contain;
+
+filter: saturate(100%);
+}
+
+.videoContainer {
+  display: grid;
+  place-items: center; 
+  width: 840px;
+  border:16px solid red;
+  border-image: url('assets/images/playground/redPlayground.webp') 27 repeat;
+  position: relative; 
+  padding:1%;
+  margin:1%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color:rgba(100,100,100,0.7);
+  /*background-image:url("assets/images/playground/classroom/schoolbaord.webp")*/
+}
+
+#negativeVideoContainer,
+#positiveVideoContainer {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+}
+
+#negativeVideoContainer {
+  z-index: 2;
+  mix-blend-mode: normal;
+
+}
+
+#positiveVideoContainer {
+  z-index: 1;
+  mix-blend-mode: normal;
+}
+
+.stickerContainer{
+  float:right;
+  display: grid;
+  place-items: center; 
+  margin:1%;
+  width: 320px;
+  height: 320px;
+  border: 16px solid purple; 
+  border-image: url('assets/images/playground/purplePlayground.webp') 27 repeat;
+  
+  position: relative; 
+  padding:2%;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color:rgba(200,200,200,0.7);
+  /*background-image:url("assets/images/playground/classroom/bulletin.webp")*/
+
+}
+
+.sticker{
+width:30%;
+}
+
+
+.analiserContainer{
+  float:right;
+  display: grid;
+  place-items: center; 
+  margin:1%;
+  width: 640/2px;
+  height: 360/2px;
+  border: 16px solid blue; 
+  border-image: url('assets/images/playground/yellowPlayground.webp') 27 repeat;
+  
+  position: relative; 
+  padding:2%;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color:rgba(100,100,100,0.7);
+ /* background-image:url("assets/images/playground/classroom/schoolbaord.webp")*/
+}
+
+
+.motifContainer{
+  display: grid;
+  place-items: center; 
+  width: 640px;
+  height: 360px;
+  border: 16px solid green; 
+  border-image: url('assets/images/playground/greenPlayground.webp') 27 repeat;
+  margin:1%;
+  position: relative; 
+  padding:2%;
+  overflow:hidden;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color:rgba(100,100,100,0.7);
+
+ /* background-image:url("assets/images/playground/classroom/whiteboard.webp")*/
+}
+
+
+
+
+.center {
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+}
