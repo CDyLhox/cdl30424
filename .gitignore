@@ -4,6 +4,9 @@
 *.WAV
 *.png
 *.jpg
+*.JPG
+*.JPEG
+*.AVI
 *.gif
 *.jpeg
 *.mp4
