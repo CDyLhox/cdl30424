@@ -47,20 +47,20 @@ script {
   </head>
 
   <body class="main">
-
+      <script src="scripts/constmaker.js"></script>
     <div id="content" style="display: none;">
-      <div class="sideContent" >
+      <div class="sideContent" id="sideContent" >
         <p>sometext</p>
       </div>
       <div class="mainContent" style="display:block; left:0; width:75%; overflow:wrap;">
         <script src="scripts/bgListener/bgListener.js"></script>
-        <div class="header" style="	mix-blend-mode: difference;">
+        <div class="header" id="topbar" style="	mix-blend-mode: difference;">
 
 
           <h1>
             <a id="headerlink" style="text-decoration:none; " href="index.html">CAGE.log</a>
           </h1>
-          <div class="links" id="secondary">
+          <div class="links" id="secondary" style="width:75vw">
             <a class="mainlink" href="blog.html">THE LOG</a>
             <a class="mainlink" href="CDLmusic.html"> CDL-MUSIC</a>
             <a class="mainlink" href="portfolio.html">PORTFOLIO</a>
@@ -432,6 +432,7 @@ Felis enim auctor mus iaculis auctor, dui, sed nullam in semper tempus. Vestibul
       });
     </script>
     </div>
+    <script src="scripts/rescaleOnReload.js"></script>
   </body>
 
 </html>

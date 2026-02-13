@@ -1,17 +1,21 @@
+const topbar = document.getElementById("topbar");
+console.log(topbar.getBoundingClientRect().height);
+
 function randomizePosition(elmnt) {
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
 
     const randomX = Math.floor(Math.random() * (viewportWidth - elmnt.offsetWidth));
     const randomY = Math.floor(Math.random() * (viewportHeight - elmnt.offsetHeight));
 
     elmnt.style.position = "absolute";
-    elmnt.style.left = 0 + "%";
-    elmnt.style.top = 12 + "%";
 
 }
 
 const mtxt = document.getElementById("mainPageText");
+mtxt.style.height = viewportHeight / 2 + "px";
+
+    mtxt.style.left = 0 + "%";
+    mtxt.style.top = 10 + "%";
+
 randomizePosition(mtxt);
 dragElement(mtxt);
 

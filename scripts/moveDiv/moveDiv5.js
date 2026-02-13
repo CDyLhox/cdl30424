@@ -1,21 +1,13 @@
-function randomizePosition(elmnt) {
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
 
-    const randomX = Math.floor(Math.random() * (viewportWidth - elmnt.offsetWidth));
-    const randomY = Math.floor(Math.random() * (viewportHeight - elmnt.offsetHeight));
-
-    elmnt.style.position = "absolute";
-    elmnt.style.left = 0 + "%";
-    elmnt.style.top = 59 + "%";
-
-}
 
 const emt = document.getElementById("extraMainText");
+
+    emt.style.position = "absolute";
+    emt.style.left = 0 + "%";
+    emt.style.top = (0.11 * viewportHeight) + (viewportHeight/2)+"px";
+
 randomizePosition(emt);
 dragElement(emt);
-
-
 
 function dragElement(elmnt) {
     var pos1 = 0, pos2 = 0, initialX = 0, initialY = 0;

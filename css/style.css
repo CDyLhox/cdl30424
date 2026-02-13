@@ -505,12 +505,12 @@ div#thricendary.links a.mainlink:hover {
 
 
 div#secondary.links a.mainlink {
-	width: 55%;
 	color: rgb(255, 0, 0);
 	font-size: 1.2em;
 	text-shadow: 2px 0 wheat, -1px 0 wheat, 0 1px wheat, 0 -1px wheat,
 	1px 1px wheat, -1px -1px wheat, 1px -1px wheat, -1px 1px wheat;
 	transition: 1s;
+    padding-right:1%;
 }
 div#secondary.links a.mainlink:hover {
 	font-size: 2em;
@@ -851,6 +851,18 @@ div#LoveUnder.window {
 
 
 
+#ilg {
+	color: rgb(255, 0, 102);
+	text-shadow: 1px 1px #f2f2f2;
+	font-size: medium;
+	position: relative;
+	font-weight: 600;
+	background-image: url('../img/basicimg/koe.webp');
+	background-color: rgb(224, 210, 206);
+	background-blend-mode: exclusion;
+	margin: 2%;
+	width: 96%;
+}
 
 #wacko {
 	color: rgb(255, 0, 102);

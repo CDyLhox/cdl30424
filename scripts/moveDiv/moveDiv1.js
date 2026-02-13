@@ -1,7 +1,5 @@
 
 function randomizePosition(elmnt) {
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
 
     const randomX = Math.floor(Math.random() * (viewportWidth - elmnt.offsetWidth));
     const randomY = Math.floor(Math.random() * (viewportHeight - elmnt.offsetHeight));

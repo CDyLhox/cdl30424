@@ -1,13 +1,11 @@
 function randomizePosition(elmnt) {
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
 
     const randomX = Math.floor(Math.random() * (viewportWidth - elmnt.offsetWidth));
     const randomY = Math.floor(Math.random() * (viewportHeight - elmnt.offsetHeight));
 
     elmnt.style.position = "absolute";
     elmnt.style.left = 0 + "%";
-    elmnt.style.top = 100 + "%";
+    elmnt.style.top = 103 + "%";
 
 }
 
